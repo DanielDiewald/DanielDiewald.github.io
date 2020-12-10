@@ -1,0 +1,58 @@
+body {
+  background-color: rgb(29, 29, 29);
+  font-family: monospace;
+  font-size: 3.5vh;
+  font-weight: bold;
+}
+
+.deck {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 92vh;
+  height: 92vh;
+  margin: auto;
+}
+
+.card {
+  background-color: #7058F5;
+  color:  #7058F5;
+  width: 22%;
+  height: 22%;
+  margin: 1%;
+  text-align: center;
+  line-height: 21vh;
+  box-shadow: 10px 10px 5px rgb(19, 19, 19);
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+
+.card-flipped {
+  background-color:#B362F5;
+  color: black;
+}
+.card:hover {
+  background-color: #806bf3;
+  color:  #806bf3;
+}
+.card-flipped:hover {
+  background-color:#c181f5;
+  color:  black;
+}
+.card-matched {
+  opacity: 0;
+}
+div.hovereffekt {
+  background-color: red;
+  height: 50px;
+  width: 100px;
+  }
+  
+div.hovereffekt:hover {
+  background-color: red no-repeat;
+}
